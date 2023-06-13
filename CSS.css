@@ -1,0 +1,67 @@
+p {
+	color: yellow;
+	font-family: Segoe,"Segoe Ui", "DejaVu Sans", Trebuchet MS, "Verdana", sens-serif;
+	font-size: 17 px;
+	line-height: 18px;
+	width: 600 px;
+	background-color: gray;
+	padding: 15 px;
+}
+h2 {
+	font-family: Consolas,"Andale Mono", "Lucida Console", Lucida Sans Typewriter, "Monaco", Courier New, "monospace" ;
+	color:azure; 
+	
+}
+h1 {
+	font-family: "AntunRomic";
+	color:gray;
+	
+}
+
+span {color:#000563;}
+body{
+     background-image: url("slike/pozadina.jpg");
+}
+.drugapozadina {
+	background-color: aqua;
+}
+a:link {
+	color:gray;
+	background-color: white;
+	padding: 6px;
+	line-height: 45px;
+	border:1px solid #000000;
+	
+}
+a:hover {
+	background-color: blue;
+	
+}
+<head>
+    <title>Navigacijska lista sa linkovima</title>
+    <style>
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        nav ul li a {
+     
+            color: gray;
+			padding: 5px;
+	        line-height: 40px;
+	        border:1px solid #000000;
+        }
+        
+        nav ul li a:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
